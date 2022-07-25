@@ -1,4 +1,233 @@
 body {
-    background-color: aqua ;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+/* nav bar */
+
+.container {
+    background-color: white;
+    min-width: 1024px;
+    width: 100%;
+    position: fixed;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: 0px 3px 8px 1px rgb(68, 68, 68);
+}
+
+.container a {
+    text-decoration: none;
+    font-size: x-large;
+    color: rgb(79, 76, 76);
+}
+
+.container span {
+    color: rgb(105, 223, 253);
+}
+
+.navbar a {
+    padding: 2rem;
+}
+
+/*Bacground princial */
+
+.container2 {
+    background-image: url('fontes/assets/img-fundo.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.tela-primaria {
+    color: #fff;
+    font-size: 28px;
+    background-color: #0a9077b3;
+    border: 1px solid;
+    padding: 40px 40px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+/* Seja bem vindo */
+
+#container3 {
+    text-align: center;
+    margin-top: 7rem;
+    color: rgb(88, 82, 82);
+
+}
+
+#container3 h2 {
+    font-size: 2.5rem;
+    font-weight: lighter;
+
+}
+
+#container3 p {
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+
+/* quartos */
+
+.container4 {
+    margin-top: 90px;
+    text-align: center;
+    justify-content: flex-end;
+    min-width: 900px;
+
+}
+
+.quartos {
+    display: flex;
+    padding: 30px 0px;
+
+}
+
+.quartos img {
+    width: 70%;
+}
+
+.quartos a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: rgb(88, 82, 82);
+    border-bottom: 3px solid #0a9077b3;
+    padding-bottom: 2rem;
+
+}
+
+/* ROTA */
+
+.container-rota {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+#rota h2 {
+    font-size: 2.5rem;
+    color: rgb(88, 82, 82);
+}
+
+#rota p {
+    font-size: 1.2rem;
+    color: rgb(88, 82, 82);
+}
+
+iframe {
+    width: 100%;
+}
+
+/* SOBRE */
+
+#sobre {
+    text-align: center;
+    margin-top: 5rem;
+    color: rgb(88, 82, 82);
+}
+
+#sobre h2 {
+    font-size: 2.5rem;
+}
+
+#sobre p {
+    font-size: 1.2rem;
+}
+
+
+/* cards */
+
+.tamanho-maximo-container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+
+.descricoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 50px;
+
+}
+
+.descricao {
+    display: flex;
+    width: 45%;
+    margin: 0 10px;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.descricao-conteudo {
+    flex: 1 1 auto;
+}
+
+.descricao-img {
+    width: 100px;
+    height: 113px;
+    object-fit: cover;
+    margin-left: 10px;
+}
+
+/* Rodapé */
+
+
+.rodape-copyright {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #3b7863;
+    color: #fff;
+    font-weight: 600;
+    width: 100%;
+}
+
+.rodape {
+    background-color: #49997d;
+    color: #fff;
+}
+
+.rodape h4 {
+    font-size: 22px;
+}
+
+.rodape-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rodape-info {
+    width: 23%;
+    display: flex;
+    align-items: center;
+}
+
+.rodape-link {
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.rodape-icone {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.rodape-info a {
+    text-decoration: none;
+    color: #fff;
 }
